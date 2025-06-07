@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>山田太郎 ポートフォリオ</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Fira+Code:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-dBwexvG5KsZr1uOlN3eQ+NrQZLgaVtR4f15P1FFBCLCXbnjGkrdjXqE35H5vK8C5YJ+9KyQC4Pp3lU6jIqtm2Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header class="container">
+        <h1>山田太郎</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#works">Works</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="hero" class="hero">
+        <div class="container">
+            <h2 class="hero-title">山田太郎のポートフォリオへようこそ</h2>
+            <p><span id="typed"></span></p>
+        </div>
+    </section>
+    <section id="about" class="about container">
+        <h2>About</h2>
+        <p>こんにちは、山田太郎です。エンジニアとして日々新しい技術の探求に励んでいます。</p>
+    </section>
+    <section id="works" class="works container">
+        <h2>Works</h2>
+        <div class="work-grid">
+            <div class="work-item">
+                <i class="fas fa-laptop-code fa-3x"></i>
+                <h3>Project A</h3>
+                <p>Pythonを用いたWebアプリケーション</p>
+            </div>
+            <div class="work-item">
+                <i class="fas fa-cloud fa-3x"></i>
+                <h3>Project B</h3>
+                <p>AWSによるクラウドインフラ構築</p>
+            </div>
+            <div class="work-item">
+                <i class="fas fa-robot fa-3x"></i>
+                <h3>Project C</h3>
+                <p>IEC 61131-3を活用した制御システム</p>
+            </div>
+        </div>
+    </section>
+    <section id="skills" class="skills container">
+        <h2>Skills</h2>
+        <ul>
+            <li>Python</li>
+            <li>C#</li>
+            <li>AWS</li>
+            <li>IEC 61131-3</li>
+        </ul>
+    </section>
+    <section id="contact" class="contact container">
+        <h2>Contact</h2>
+        <p>GitHub: <a href="https://github.com/yourusername" target="_blank">yourusername</a></p>
+        <p>Email: <a href="mailto:example@example.com">example@example.com</a></p>
+    </section>
+    <footer class="container">
+        <p>&copy; 2023 山田太郎</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="script.js"></script>
+</body>
+</html>
